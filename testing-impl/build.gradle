@@ -34,6 +34,6 @@ tasks.eclipse.dependsOn('ensureDirectory')
 dependencies {
     api project(':testing-api')
 
-    implementation("com.google.dagger:dagger:2.39.1")
-    annotationProcessor("com.google.dagger:dagger-compiler:2.39.1")
+    implementation("com.google.dagger:dagger:2.40")
+    annotationProcessor("com.google.dagger:dagger-compiler:2.40")
 }
