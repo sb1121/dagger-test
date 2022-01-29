@@ -30,6 +30,7 @@ tasks.register('ensureDirectory') {
 }
 
 tasks.eclipse.dependsOn('ensureDirectory')
+tasks.eclipse.dependsOn('cleanEclipse')
 
 dependencies {
     api project(':testing-api')
